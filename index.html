@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba4</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/2879a8137f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="ASSETS/CSS/style.css">
+</head>
+<body>
+
+  <!-- Barra de Navegacion -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top"">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="logoar" href="#"> 
+        <img src="ASSETS/IMG/LogoArgProg.png" alt="" width="50%" height="">
+      </a>
+      
+      
+        <ul class="navbar-nav">
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menú
+          </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+              <li><a class="dropdown-item" href="#Experiencia" class="nav-link">Experiencia</a></li>
+              <li><a class="dropdown-item" href="#Educacion" class="nav-link">Educacion</a></li>
+              <li><a class="dropdown-item" href="#Habilidades" class="nav-link">Habilidades</a></li>
+              <li><a class="dropdown-item" href="#Proyectos" class="nav-link">Proyectos</a></li>
+              <li><a class="dropdown-item" href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><i class="fa-brands fa-instagram fa-xl"></i></li>
+          <li class="list-group-item"><i class="fa-brands fa-facebook fa-xl"></i></li>
+          <li class="list-group-item"><i class="fa-brands fa-linkedin fa-xl"></i></li>
+          <li class="list-group-item"><i class="fa-brands fa-github fa-xl"></i></li>
+
+  <!-- Button trigger modal -->
+  
+          <li class="list-group-item">
+              <i class="fa-solid fa-user-lock fa-xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  
+              </i>
+          </li>
+    </ul>
+        
+      
+    </div>
+  </nav>
+      <!-- Modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="row g-3">
+                <div class="col-auto">
+                  <label for="staticEmail2" class="visually-hidden">Email</label>
+                  <input type="text" class="form-control-plaintext" id="staticEmail2" value="email@ejemplo.com">
+                </div>
+                <div class="col-auto">
+                  <label for="inputPassword2" class="visually-hidden">Password</label>
+                  <input type="password" class="form-control" id="inputPassword2" placeholder="Contraseña">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--fondo foto perfil-->
+
+<section id="fondo-foto-perfil">
+      <div class="container text-center">
+        <div class="row">
+
+<!--Sobre Mí-->
+  
+          <div class="col-3">
+          </div>
+        <div class="col-6 md-auto me-auto">
+          <h1 class="sobre-mi" id="sobremi">Acerca de Mi</h1><br><br>
+          <h6><b><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor sunt distinctio, ipsa architecto incidunt totam nisi commodi a, omnis est modi rerum. Velit debitis a commodi aut vero fugit laboriosam!</span></b></h6>
+        </div>
+        
+        <div class="col-3">
+        </div>
+        </div>
+        
+      </div>
+</section>
+
+<!--foto de perfil-->
+
+<img src="ASSETS/IMG/IMG_20220707_123154928_4.jpg" class="rounded-circle w-25" alt="..." title="...">
+<div class="container text-center">
+</div>
+
+<!--Secciones: Experiencia-Educación-Habilidades-Proyectos-Contacto-->
+
+<section id="Experiencia" class="Experiencia">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-3 mt-4">
+        <div class="espacio">
+          
+          
+        </div>
+      </div>
+      <div class="col-6 mt-4">
+        <h6><p><span class="rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in temporibus sequi sit consectetur nisi odio aliquam necessitatibus cumque doloremque? Ratione exercitationem assumenda sequi, in laborum maxime provident quisquam excepturi?</span></p></h6>
+        
+      </div>
+      <div class="col-3 mt-4">
+        <h3>Experiencia</h3>
+      </div>
+    </div>
+  </div>
+</section><br><br>
+
+<section id="Educacion" class="Educacion">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-3 mt-4">
+        <h3>Educacion</h3>
+        <div class="espacio">
+          
+          
+        </div>
+      </div>
+      <div class="col-6 mt-4">
+        <h6><p><span class="rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in temporibus sequi sit consectetur nisi odio aliquam necessitatibus cumque doloremque? Ratione exercitationem assumenda sequi, in laborum maxime provident quisquam excepturi?</span></p></h6>
+        <br>
+        <h6><p><span class="rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in temporibus sequi sit consectetur nisi odio aliquam necessitatibus cumque doloremque? Ratione exercitationem assumenda sequi, in laborum maxime provident quisquam excepturi?</span></p></h6>
+        <br>
+        <h6><p><span class="rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in temporibus sequi sit consectetur nisi odio aliquam necessitatibus cumque doloremque? Ratione exercitationem assumenda sequi, in laborum maxime provident quisquam excepturi?</span></p></h6>
+        
+      </div>
+      <div class="col-3 mt-4">
+        
+      </div>
+    </div>
+  </div>
+</section><br><br>
+
+<section id="Habilidades" class="Habilidades">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-9 mt-4">
+        <ul class="progress-circle-container">
+          <li class="progress-circle progress-65"><span>65</span><b>HTML</b></li>
+          
+          <li class="progress-circle progress-50"><span>50</span><b>CSS3</b></li>
+            
+          <li class="progress-circle progress-30"><span>30</span><b>BS</b></li>
+            
+          <li class="progress-circle progress-20"><span>20</span><b>JS</b></li>
+          
+        </ul>
+      </div>
+      <div class="col-3 mt-4">
+        <h3>Habilidades</h3>
+      </div>
+    </div>
+  </div>
+</section><br><br>
+
+
+
+<section id="Proyectos" class="Proyectos">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-3 mt-4">
+        <h3>Proyectos</h3>
+        <div class="espacio">
+          
+          
+        </div>
+      </div>
+      <div class="col-6 mt-4">
+        <h6><p><span class="rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in temporibus sequi sit consectetur nisi odio aliquam necessitatibus cumque doloremque? Ratione exercitationem assumenda sequi, in laborum maxime provident quisquam excepturi?</span></p></h6>
+        <h6><p><span class="rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in temporibus sequi sit consectetur nisi odio aliquam necessitatibus cumque doloremque? Ratione exercitationem assumenda sequi, in laborum maxime provident quisquam excepturi?</span></p></h6>
+      </div>
+      <div class="col-3 mt-4">
+        
+      </div>
+    </div>
+  </div>
+</section><br><br>
+
+
+
+<!-- :::: Pie de Pagina ::::-->
+
+<section id="contacto">
+<footer class="pie-pagina">
+  <div class="grupo-1">
+     <div class="box">
+         <figure>
+             <a href="#">
+                 <img src="img/logotipo-sleedw.svg"alt="Logo de SLee Dw">
+             </a>
+         </figure>
+     </div>
+     <div class="box">
+      <h2>SOBRE NOSOTROS</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Odio,ipsa?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Odio,ipsa?</p>
+  </div>
+  <div class="box">
+      <h2>SIGUENOS</h2>
+      <div class="red-social">
+           <a href="#" class="fa fa-facebook"> </a>
+           <a href="#" class="fa fa-instagram"> </a>
+           <a href="#" class="fa fa-twitter"> </a>
+           <a href="#" class="fa fa-youtube"> </a>
+           <a href="#" class="fa-solid fa-arrow-turn-up"></a>
+      </div>
+  </div>
+  </div>
+  <div class="grupo-2">
+    <small>&copy; 2022<b>CV Project</b>-Todas los Derechos Reservados.</small>
+</div>
+</footer>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

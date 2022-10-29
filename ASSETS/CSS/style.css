@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+
+body{
+    background-image: url(../IMG/color-g711e0da9e_1920a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200vh;
+    margin: 104px 1%;
+    
+}
